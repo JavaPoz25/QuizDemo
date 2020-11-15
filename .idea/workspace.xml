@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e43e46-13b3-4a75-92f6-6ef9e290b423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/controller/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/controller/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/service/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/service/QuizService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1605428584052" duration="480000" />
       <workItem from="1605429344016" duration="327000" />
       <workItem from="1605429773640" duration="320000" />
-      <workItem from="1605430121258" duration="821000" />
+      <workItem from="1605430121258" duration="1223000" />
     </task>
     <servers />
   </component>
@@ -217,13 +216,13 @@
     </state>
     <state width="1391" height="146" key="GridCell.Tab.3.right/0.25.2560.995@0.25.2560.995" timestamp="1605357820232" />
     <state width="1391" height="146" key="GridCell.Tab.3.right/1440.25.2560.1055/0.25.1440.818@0.25.1440.818" timestamp="1605349591537" />
-    <state x="0" y="112" key="MergeDialog" timestamp="1605429934455">
+    <state x="0" y="112" width="1537" height="824" key="MergeDialog" timestamp="1605431427142">
       <screen x="0" y="25" width="2560" height="995" />
     </state>
-    <state x="0" y="112" key="MergeDialog/0.25.2560.995@0.25.2560.995" timestamp="1605429934455" />
-    <state x="412" y="289" key="MultipleFileMergeDialog" timestamp="1605429936194">
+    <state x="0" y="112" width="1537" height="824" key="MergeDialog/0.25.2560.995@0.25.2560.995" timestamp="1605431427142" />
+    <state x="412" y="289" key="MultipleFileMergeDialog" timestamp="1605431429167">
       <screen x="0" y="25" width="2560" height="995" />
     </state>
-    <state x="412" y="289" key="MultipleFileMergeDialog/0.25.2560.995@0.25.2560.995" timestamp="1605429936194" />
+    <state x="412" y="289" key="MultipleFileMergeDialog/0.25.2560.995@0.25.2560.995" timestamp="1605431429167" />
   </component>
 </project>
