@@ -45,4 +45,14 @@ public class QuizController {
 
         return "redirect:/quiz";
     }
+
+    @RequestMapping(value = "/quiz/search", method = RequestMethod.GET)
+    public String quizSearch(String searchText, Model model) {
+
+        List<QuizDto> dtos = quizService.searchQuizByName(searchText);
+
+        model.addAttribute("quizList", dtos);
+
+        return "quizList";
+    }
 }
