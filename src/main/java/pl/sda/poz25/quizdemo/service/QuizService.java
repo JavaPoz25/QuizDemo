@@ -46,4 +46,13 @@ public class QuizService {
         QuizEntity entity = quizRepository.getById(id);
         return QuizMapper.mapEntityToDto(entity);
     }
+
+    public List<QuizDto> searchQuizByName(String quizName) {
+
+        // TODO: dodać odpowiednią logikę
+        Iterable<QuizEntity> entities = quizRepository.findAll();
+        List<QuizDto> dtos = QuizMapper.mapEntityListToDtoList(entities);
+
+        return dtos;
+    }
 }
