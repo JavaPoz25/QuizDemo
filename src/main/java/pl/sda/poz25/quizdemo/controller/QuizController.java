@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import pl.sda.poz25.quizdemo.dto.QuizDto;
 import pl.sda.poz25.quizdemo.service.QuizService;
 
-import java.awt.desktop.QuitStrategy;
 import java.util.List;
 
 @Controller

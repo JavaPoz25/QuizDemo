@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e43e46-13b3-4a75-92f6-6ef9e290b423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/controller/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/controller/QuizController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2954023" />
@@ -91,7 +91,7 @@
       <workItem from="1605946126506" duration="9440000" />
       <workItem from="1606403365969" duration="738000" />
       <workItem from="1606566074116" duration="3723000" />
-      <workItem from="1606655354477" duration="68000" />
+      <workItem from="1606655354477" duration="297000" />
     </task>
     <servers />
   </component>
@@ -253,6 +253,10 @@
       <screen x="0" y="25" width="2560" height="995" />
     </state>
     <state x="479" y="230" key="RollbackChangesDialog/0.25.2560.995@0.25.2560.995" timestamp="1605432196227" />
+    <state x="320" y="259" key="Vcs.Push.Dialog.v2" timestamp="1606655426423">
+      <screen x="0" y="25" width="2560" height="995" />
+    </state>
+    <state x="320" y="259" key="Vcs.Push.Dialog.v2/0.25.2560.995@0.25.2560.995" timestamp="1606655426423" />
     <state x="385" y="244" width="670" height="676" key="search.everywhere.popup" timestamp="1606057067398">
       <screen x="0" y="25" width="2560" height="995" />
     </state>
