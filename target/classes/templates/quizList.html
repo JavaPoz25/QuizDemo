@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Lista quizów</title>
-    <link th:href="@{/css/main.css}" rel="stylesheet" />
+    <link href="css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
 </head>
 <body>
-    <h1>Lista quizów</h1>
+    <h2>Lista quizów</h2>
     <table class="blueTable">
         <tr th:each="quiz : ${quizList}">
             <td th:text="${quiz.title}" />
