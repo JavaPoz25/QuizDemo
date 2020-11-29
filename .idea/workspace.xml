@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0e43e46-13b3-4a75-92f6-6ef9e290b423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/QuizDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuizDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/poz25/quizdemo/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizCreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizCreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizCreate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +66,6 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuizdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="QuizDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.sda.poz25.quizdemo.QuizdemoApplication" />
@@ -109,6 +91,7 @@
       <workItem from="1605946126506" duration="9440000" />
       <workItem from="1606403365969" duration="738000" />
       <workItem from="1606566074116" duration="3723000" />
+      <workItem from="1606655354477" duration="68000" />
     </task>
     <servers />
   </component>
