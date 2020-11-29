@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Nowy Quiz</title>
+
+<!--    <link th:rel="stylesheet" th:src="@{/css/bootstrap-datepicker.css}" />-->
+<!--    <link th:rel="stylesheet" th:src="@{/css/bootstrap-datepicker.standalone.css}" />-->
+
+    <link href="css/main.css" th:href="@{/css/main.css}" rel="stylesheet" />
+    <link th:href="@{/css/bootstrap-datepicker.css}" rel="stylesheet" />
+    <link th:href="@{/css/bootstrap-datepicker.standalone.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
     <h1>Nowy quiz</h1>
@@ -17,7 +26,25 @@
             <input type="text" name="description" placeholder="Opis quizu" />
         </div>
 
+        <div class="input-group date">
+            <input type="text" class="form-control" id="createDate" autocomplete="off" th:field="*{createDate}"/>
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+            </div>
+        </div>
+
         <input type="submit" value="Zapisz">
     </form>
+
+    <script th:src="@{/js/jquery-3.5.1.min.js}"></script>
+    <script th:src="@{/js/bootstrap-datepicker.min.js}"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('.input-group.date').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        });
+    </script>
+
 </body>
 </html>
